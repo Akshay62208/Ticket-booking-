@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Concert Ticket Booking</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Book Your Tickets for the Music Concert!</h1>
+</header>
+<main>
+<form id="bookingForm">
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+<label for="tickets">Number of Tickets:</label>
+<input type="number" id="tickets" name="tickets" min="1" required>
+<button type="submit">Book Now</button>
+</form>
+<p id="responseMessage"></p>
+</main>
+</body>
+<script src="Script.js"></script>
+</html>
